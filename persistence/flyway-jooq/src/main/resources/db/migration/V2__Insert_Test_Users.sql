@@ -1,0 +1,2 @@
+INSERT INTO users(emailid, username, first_name, last_name, password_hash) VALUES('test@example.com', 'callicoder', 'Rajeev', 'Singh', 'ABCDE');
+INSERT INTO users(emailid, username, first_name, last_name, password_hash) VALUES('tester@example.com', 'flywaytest', 'Flyway', 'Test', 'ABCDE');

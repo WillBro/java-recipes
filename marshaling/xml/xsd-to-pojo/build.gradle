@@ -1,0 +1,58 @@
+buildscript {
+    repositories {
+        maven { url "https://repo.spring.io/libs-release" }
+        mavenLocal()
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.1.10.RELEASE")
+
+        classpath 'com.github.jacobono:gradle-jaxb-plugin:1.3.6'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'spring-boot'
+
+apply plugin: 'com.github.jacobono.jaxb'
+
+configurations {
+    jaxb
+}
+
+jar {
+    baseName = 'gs-rest-service'
+    version = '0.1.0'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+    maven { url "https://repo.spring.io/libs-release" }
+}
+
+dependencies {
+    jaxb(
+            'com.sun.xml.bind:jaxb-xjc:2.2.7',
+            'com.sun.xml.bind:jaxb-impl:2.2.7',
+            'javax.xml.bind:jaxb-api:2.2.7'
+    )
+}
+
+jaxb {
+    xjc {
+        xsdDir = "/marshaling/xml/xsd-to-pojo/src/main/resources/schema/"
+        destinationDir = "${getProjectDir()}/src/generated/java/"
+        generatePackage = "am.willi.xml.xjc.generated.domain"
+        // @todo Determine how to generate directories into own packages.
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/generated/java'
+        }
+    }
+}

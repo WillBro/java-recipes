@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="castor_main" target="1.8" />
+      <module name="castor_test" target="1.8" />
+      <module name="common-client_main" target="1.8" />
+      <module name="common-client_test" target="1.8" />
+      <module name="common_main" target="1.8" />
+      <module name="common_test" target="1.8" />
+      <module name="file-beans_main" target="1.8" />
+      <module name="file-beans_test" target="1.8" />
+      <module name="flyway-jooq_main" target="1.8" />
+      <module name="flyway-jooq_test" target="1.8" />
+      <module name="jackson-dataformat-xml_main" target="1.8" />
+      <module name="jackson-dataformat-xml_test" target="1.8" />
+      <module name="json_main" target="1.8" />
+      <module name="json_test" target="1.8" />
+      <module name="marshaling_main" target="1.8" />
+      <module name="marshaling_test" target="1.8" />
+      <module name="parsing_main" target="1.8" />
+      <module name="parsing_test" target="1.8" />
+      <module name="persistence_main" target="1.8" />
+      <module name="persistence_test" target="1.8" />
+      <module name="serenity-bdd_main" target="1.8" />
+      <module name="serenity-bdd_test" target="1.8" />
+      <module name="test-all_main" target="1.8" />
+      <module name="test-all_test" target="1.8" />
+      <module name="test-bdd_main" target="1.8" />
+      <module name="test-bdd_test" target="1.8" />
+      <module name="test-common_main" target="1.8" />
+      <module name="test-common_test" target="1.8" />
+      <module name="test-recipes_main" target="1.8" />
+      <module name="test-recipes_test" target="1.8" />
+      <module name="test_main" target="1.8" />
+      <module name="test_test" target="1.8" />
+      <module name="wsdl-to-java_main" target="1.8" />
+      <module name="wsdl-to-java_test" target="1.8" />
+      <module name="xml_main" target="1.8" />
+      <module name="xml_test" target="1.8" />
+      <module name="xsd-to-pojo_main" target="1.8" />
+      <module name="xsd-to-pojo_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

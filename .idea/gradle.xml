@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="/opt/gradle/bin" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/common-client" />
+            <option value="$PROJECT_DIR$/marshaling" />
+            <option value="$PROJECT_DIR$/marshaling/file-beans" />
+            <option value="$PROJECT_DIR$/marshaling/json" />
+            <option value="$PROJECT_DIR$/marshaling/xml" />
+            <option value="$PROJECT_DIR$/marshaling/xml/castor" />
+            <option value="$PROJECT_DIR$/marshaling/xml/jackson-dataformat-xml" />
+            <option value="$PROJECT_DIR$/marshaling/xml/wsdl-to-java" />
+            <option value="$PROJECT_DIR$/marshaling/xml/xsd-to-pojo" />
+            <option value="$PROJECT_DIR$/parsing" />
+            <option value="$PROJECT_DIR$/persistence" />
+            <option value="$PROJECT_DIR$/persistence/flyway-jooq" />
+            <option value="$PROJECT_DIR$/test" />
+            <option value="$PROJECT_DIR$/test/test-all" />
+            <option value="$PROJECT_DIR$/test/test-bdd" />
+            <option value="$PROJECT_DIR$/test/test-bdd/serenity-bdd" />
+            <option value="$PROJECT_DIR$/test/test-common" />
+            <option value="$PROJECT_DIR$/test/test-recipes" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
