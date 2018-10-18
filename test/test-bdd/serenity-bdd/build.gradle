@@ -1,0 +1,50 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.1.14")
+        classpath "gradle.plugin.com.energizedwork.webdriver-binaries:webdriver-binaries-gradle-plugin:1.4"
+    }
+    ext {
+        serenityVersion = '1.4.0'
+        serenityScreenplayVersion = '2.0.6'
+        restAssuredVersion = '3.0.6'
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+apply plugin: "com.energizedwork.webdriver-binaries"
+
+sourceCompatibility = 1.8
+group = 'am.willi.bdd.serenity'
+
+webdriverBinaries {
+    chromedriver '2.32'
+    geckodriver '0.19.0'
+    iedriverserver '3.8.0'
+}
+
+dependencies {
+    compile "net.serenity-bdd:serenity-screenplay:${serenityScreenplayVersion}"
+    compile "net.serenity-bdd:serenity-screenplay-webdriver:${serenityScreenplayVersion}"
+
+    compile("io.github.bonigarcia:webdrivermanager:3.0.0")
+    testCompile "io.rest-assured:rest-assured:${restAssuredVersion}"
+    testCompile('junit:junit:4.12')
+    testCompile "net.serenity-bdd:serenity-core:${serenityVersion}"
+    testCompile "net.serenity-bdd:serenity-junit:${serenityVersion}"
+    testCompile "net.serenity-bdd:serenity-cucumber:1.9.18"
+    testCompile('org.assertj:assertj-core:1.7.0')
+    testCompile('org.slf4j:slf4j-simple:1.7.7')
+}
+
+repositories {
+    mavenCentral()
+}

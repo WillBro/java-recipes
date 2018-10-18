@@ -1,0 +1,32 @@
+buildscript{
+    repositories{
+        jcenter()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'no.nils:wsdl2java:0.10'
+    }
+}
+
+apply plugin :'java'
+apply plugin :'no.nils.wsdl2java'
+
+repositories{
+    mavenCentral()
+}
+
+dependencies(){
+    testCompile 'junit:junit:+'
+}
+
+wsdl2java{
+    wsdlsToGenerate = [
+            ['-p','am.willi.xml.wsdl.books', '-autoNameResolution',"$projectDir/src/main/resources/wsdl/books.wsdl"]
+    ]
+    generatedWsdlDir = file("$projectDir/generatedsources")
+    wsdlDir = file("$projectDir/src/main/resources/wsdl")
+}
+
+wsdl2javaExt {
+    cxfVersion = "2.5.1"
+}

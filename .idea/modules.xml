@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/castor/castor.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/castor/castor.iml" group="marshaling/xml/castor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/castor/castor_main.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/castor/castor_main.iml" group="marshaling/xml/castor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/castor/castor_test.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/castor/castor_test.iml" group="marshaling/xml/castor" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common-client.iml" filepath="$PROJECT_DIR$/.idea/modules/common-client.iml" group="common/common-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common-client/common-client_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common-client/common-client_main.iml" group="common/common-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common-client/common-client_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common-client/common-client_test.iml" group="common/common-client" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_main.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common_test.iml" group="common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/file-beans/file-beans.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/file-beans/file-beans.iml" group="marshaling/file-beans" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/file-beans/file-beans_main.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/file-beans/file-beans_main.iml" group="marshaling/file-beans" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/file-beans/file-beans_test.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/file-beans/file-beans_test.iml" group="marshaling/file-beans" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/flyway-jooq/flyway-jooq.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/flyway-jooq/flyway-jooq.iml" group="persistence/flyway-jooq" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/jackson-dataformat-xml/jackson-dataformat-xml.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/jackson-dataformat-xml/jackson-dataformat-xml.iml" group="marshaling/xml/jackson-dataformat-xml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/jackson-dataformat-xml/jackson-dataformat-xml_main.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/jackson-dataformat-xml/jackson-dataformat-xml_main.iml" group="marshaling/xml/jackson-dataformat-xml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/jackson-dataformat-xml/jackson-dataformat-xml_test.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/jackson-dataformat-xml/jackson-dataformat-xml_test.iml" group="marshaling/xml/jackson-dataformat-xml" />
+      <module fileurl="file://$PROJECT_DIR$/java-recipes.iml" filepath="$PROJECT_DIR$/java-recipes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/json/json.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/json/json.iml" group="marshaling/json" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/json/json_main.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/json/json_main.iml" group="marshaling/json" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/json/json_test.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/json/json_test.iml" group="marshaling/json" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/marshaling.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/marshaling.iml" group="marshaling" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/parsing/parsing.iml" filepath="$PROJECT_DIR$/.idea/modules/parsing/parsing.iml" group="parsing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/parsing/parsing_main.iml" filepath="$PROJECT_DIR$/.idea/modules/parsing/parsing_main.iml" group="parsing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/parsing/parsing_test.iml" filepath="$PROJECT_DIR$/.idea/modules/parsing/parsing_test.iml" group="parsing" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence.iml" group="persistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence_main.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence_main.iml" group="persistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence_test.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence_test.iml" group="persistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-bdd/serenity-bdd/serenity-bdd.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-bdd/serenity-bdd/serenity-bdd.iml" group="test/test-bdd/serenity-bdd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-bdd/serenity-bdd/serenity-bdd_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-bdd/serenity-bdd/serenity-bdd_main.iml" group="test/test-bdd/serenity-bdd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-bdd/serenity-bdd/serenity-bdd_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-bdd/serenity-bdd/serenity-bdd_test.iml" group="test/test-bdd/serenity-bdd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test.iml" group="test" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-all/test-all.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-all/test-all.iml" group="test/test-all" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-all/test-all_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-all/test-all_main.iml" group="test/test-all" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-all/test-all_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-all/test-all_test.iml" group="test/test-all" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-bdd.iml" filepath="$PROJECT_DIR$/.idea/modules/test-bdd.iml" group="test/test-bdd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-common/test-common.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-common/test-common.iml" group="test/test-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-common/test-common_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-common/test-common_main.iml" group="test/test-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-common/test-common_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-common/test-common_test.iml" group="test/test-common" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-recipes/test-recipes.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-recipes/test-recipes.iml" group="test/test-recipes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-recipes/test-recipes_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-recipes/test-recipes_main.iml" group="test/test-recipes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-recipes/test-recipes_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-recipes/test-recipes_test.iml" group="test/test-recipes" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/wsdl-to-java/wsdl-to-java.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/wsdl-to-java/wsdl-to-java.iml" group="marshaling/xml/wsdl-to-java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/wsdl-to-java/wsdl-to-java_main.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/wsdl-to-java/wsdl-to-java_main.iml" group="marshaling/xml/wsdl-to-java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/wsdl-to-java/wsdl-to-java_test.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/wsdl-to-java/wsdl-to-java_test.iml" group="marshaling/xml/wsdl-to-java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/xml.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/xml.iml" group="marshaling/xml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/xsd-to-pojo/xsd-to-pojo.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/xsd-to-pojo/xsd-to-pojo.iml" group="marshaling/xml/xsd-to-pojo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/xsd-to-pojo/xsd-to-pojo_main.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/xsd-to-pojo/xsd-to-pojo_main.iml" group="marshaling/xml/xsd-to-pojo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/marshaling/xml/xsd-to-pojo/xsd-to-pojo_test.iml" filepath="$PROJECT_DIR$/.idea/modules/marshaling/xml/xsd-to-pojo/xsd-to-pojo_test.iml" group="marshaling/xml/xsd-to-pojo" />
+    </modules>
+  </component>
+</project>

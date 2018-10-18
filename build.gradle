@@ -1,0 +1,36 @@
+buildscript {
+    ext {
+        springBootVersion = '2.0.5.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+
+    apply plugin: 'idea'
+}
+
+// From jacobono https://github.com/jacobono/gradle-jaxb-plugin/blob/master/examples/build.gradle
+subprojects { project ->
+    if (project.name.endsWith("-schema")) {
+        apply plugin: 'com.github.jacobono.jaxb'
+
+        dependencies {
+            jaxb 'com.sun.xml.bind:jaxb-xjc:2.2.7-b41'
+            //jaxws 2.2.6 uses jaxb 2.2.5, but can't dL 2.2.5 from maven the pom is off TODO
+            jaxb 'com.sun.xml.bind:jaxb-impl:2.2.7-b41'
+            jaxb 'javax.xml.bind:jaxb-api:2.2.7'
+        }
+    }
+
+//    apply plugin: 'java'
+}
+
