@@ -60,31 +60,6 @@ This repository contains a collection of `recipes` which aims to help get us sta
 - Mockito
 - Wiremock
 
-## Areas of Interest
-### General Java
-* Java Streams
-* Collectors
-* Functional Programming
-
-### Spring
-* Spring DI (Application Context)
-* Spring JdbcTemplate
-* Spring JPA
-* Spring JOOQ (database abstraction)
-* Spring REST
-* Spring Cloud Eureka `org.springframework.cloud:spring-cloud-starter-netflix-eureka-server/client` (Service Registry, Auto Discovering Clients)
-* Spring Security/OAuth
-
-#### REST
-* REST APIs (archtecting and designing)
-* Swagger UI https://swagger.io/tools/swagger-ui/
-* https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
-
-#### Miscellaneous
-* Unirest HTTP client
-* HTTPie CLI HTTP client
-* Docker Compose Cheatsheet https://github.com/wsargent/docker-cheat-sheet
-
 ## References
 ### General
 - https://search.maven.org/
