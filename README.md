@@ -28,6 +28,10 @@ This repository contains a collection of `recipes` which aims to help get us sta
 #### REST
 - Unirest
 
+#### Test
+- Serenity
+- RestAssured
+
 ----
 
 ### What we will have next
@@ -53,8 +57,6 @@ This repository contains a collection of `recipes` which aims to help get us sta
 #### Test
 - JUnit 5
 - Hamcrest
-- RestAssured
-- Serenity
 - SerenityRest
 - Extent Reports
 - Mockito
