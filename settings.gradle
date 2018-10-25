@@ -16,4 +16,6 @@ findProject(':test:test-recipes')?.name = 'test-recipes'
 include 'common:common-client'
 findProject(':common:common-client')?.name = 'common-client'
 include 'test:test-bdd:serenity-bdd'
+include 'rest:swagger'
+findProject(':rest:swagger')?.name = 'swagger'
 
