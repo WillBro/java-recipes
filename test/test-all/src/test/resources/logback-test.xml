@@ -1,0 +1,19 @@
+<configuration>
+    <!-- name attribute is our appender-ref element for the logger below -->
+    <appender name="http-headers" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <File>http-headers.log</File>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <FileNamePattern>http-headers.%d{yyyy-MM-dd}.log</FileNamePattern> <!-- daily rollover -->
+
+            <maxHistory>7</maxHistory> <!-- keep 7 days' worth of history -->
+        </rollingPolicy>
+
+        <encoder>
+            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{35} - %msg %n</Pattern>
+        </encoder>
+    </appender>
+
+    <logger name="org.apache.http.headers" level="DEBUG">
+        <appender-ref ref="http-headers"/>
+    </logger>
+</configuration>
