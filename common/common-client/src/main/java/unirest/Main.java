@@ -9,6 +9,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.io.PrintWriter;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
@@ -21,9 +22,14 @@ public class Main {
 
     private final static String REQUEST_URL = "https://raw.githubusercontent.com/DylanCh/Startupp/master/Startups.json";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         try {
+            // By default the maxTotal (overall connection limit in the pool) is 200, and
+            // the maxPerRoute (connection limit per target host) is 20.
+            int maxTotal = 100;
+            int maxPerRoute = 10;
+            Unirest.setConcurrency(maxTotal, maxPerRoute);
             Unirest.setDefaultHeader("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8");
 
             HttpResponse<JsonNode> response = Unirest.get(REQUEST_URL).asJson();
@@ -57,6 +63,8 @@ public class Main {
         } catch (UnirestException | JSONException |
                 FileNotFoundException | UnsupportedEncodingException e) {
             e.printStackTrace();
+        } finally {
+            Unirest.shutdown();
         }
     }
 }

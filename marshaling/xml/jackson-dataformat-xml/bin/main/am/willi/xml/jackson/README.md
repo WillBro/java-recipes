@@ -1,0 +1,1 @@
+https://www.concretepage.com/spring-4/spring-4-rest-xml-response-example-with-jackson-2

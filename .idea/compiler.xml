@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="castor_main" target="1.8" />
       <module name="castor_test" target="1.8" />
@@ -24,6 +27,8 @@
       <module name="persistence_test" target="1.8" />
       <module name="serenity-bdd_main" target="1.8" />
       <module name="serenity-bdd_test" target="1.8" />
+      <module name="swagger_main" target="1.8" />
+      <module name="swagger_test" target="1.8" />
       <module name="test-all_main" target="1.8" />
       <module name="test-all_test" target="1.8" />
       <module name="test-bdd_main" target="1.8" />
