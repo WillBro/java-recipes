@@ -29,9 +29,13 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence.iml" group="persistence" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence_main.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence_main.iml" group="persistence" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/persistence/persistence_test.iml" filepath="$PROJECT_DIR$/.idea/modules/persistence/persistence_test.iml" group="persistence" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest/rest.iml" filepath="$PROJECT_DIR$/.idea/modules/rest/rest.iml" group="rest" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-bdd/serenity-bdd/serenity-bdd.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-bdd/serenity-bdd/serenity-bdd.iml" group="test/test-bdd/serenity-bdd" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-bdd/serenity-bdd/serenity-bdd_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-bdd/serenity-bdd/serenity-bdd_main.iml" group="test/test-bdd/serenity-bdd" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-bdd/serenity-bdd/serenity-bdd_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-bdd/serenity-bdd/serenity-bdd_test.iml" group="test/test-bdd/serenity-bdd" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/swagger.iml" filepath="$PROJECT_DIR$/.idea/modules/swagger.iml" group="rest/swagger" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest/swagger/swagger_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rest/swagger/swagger_main.iml" group="rest/swagger" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rest/swagger/swagger_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rest/swagger/swagger_test.iml" group="rest/swagger" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test.iml" group="test" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-all/test-all.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-all/test-all.iml" group="test/test-all" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/test/test-all/test-all_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test/test-all/test-all_main.iml" group="test/test-all" />

@@ -22,6 +22,8 @@
             <option value="$PROJECT_DIR$/parsing" />
             <option value="$PROJECT_DIR$/persistence" />
             <option value="$PROJECT_DIR$/persistence/flyway-jooq" />
+            <option value="$PROJECT_DIR$/rest" />
+            <option value="$PROJECT_DIR$/rest/swagger" />
             <option value="$PROJECT_DIR$/test" />
             <option value="$PROJECT_DIR$/test/test-all" />
             <option value="$PROJECT_DIR$/test/test-bdd" />
